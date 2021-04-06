@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:none;
+    
+}
+body{
+    /*margin-left:30%;
+    margin-top:10%;*/
+    padding-left:25%;
+    padding-right: 25%;
+    margin: 10%;
+    background-image: linear-gradient(to right , #d16ba5, #166556);
+}
+
+.container{
+    
+    position:relative;
+    justify-content: center;
+    display: block;
+    padding:0.5rem;
+    width:300px;
+    height: auto;
+    border:solid rebeccapurple;
+    border-radius: 1rem;
+    box-shadow:10px 10px royalblue;
+    text-align: center;
+
+}
+@media only screen and (max-width:600px){
+    body{ 
+        padding: 15%;         
+    }
+    .container{
+        width:50%;
+        height: 80%;  
+    }
+    }
+@media only screen and (max-width: 900px) and (min-width:600px) {
+    body{
+        width:60%;
+        padding-top: 20%;
+    }
+    .container{ 
+        width:50%; 
+    }
+    
+}
+@media only screen and (max-width:1150px){
+    body{
+        width:60%;
+        padding: 15%;       
+    }
+    .container{
+        width:80%;  
+    }
+    }
+
+ 
+.heading{
+    text-align: center;
+    padding: 1rem;
+    color:blue;
+    
+}
+.hero{
+    padding: 0.5rem;
+    text-align: center;
+    
+    
+    
+}
+input{
+    margin:0.5rem;
+}
+
+.input{
+    width:50%;
+    padding:0.5rem ;
+
+
+}
+.forget{
+    color:black;
+    text-align: right;
+}
+ 
+button{
+    width:40%;
+    height:1.7rem;
+    margin-top: 0.5rem;
+    border: solid,black;
+    border-radius:0.5rem;
+    color: blue;
+    
+    cursor: pointer;
+    background-color: rgb(180, 144, 144);
+}
+
+.hero1{
+    margin:0.2rem;
+}
+.logo{
+    margin: 0.2rem;
+    margin-bottom: 2rem;
+}
+.fab,.fas{
+    margin: 0.2rem;
+    border-radius:5rem ;
+    
+}
+
+.sign_up{
+    margin-top:0.2rem;
+}
+.register{
+    width: fit-content;
+    background-color:rgb(180, 144, 144);
+    
+}
